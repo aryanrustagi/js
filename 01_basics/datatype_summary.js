@@ -33,3 +33,27 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+
+// ************************ Memory ****************************
+
+// Stack (Premitive), Heap (Non Premitive)
+
+let mynickName = "GALACTUS"
+
+let anotherName = mynickName
+anotherName = "MCUxGALACTUS"
+
+console.log(mynickName);
+console.log(anotherName);
+
+let user1 = {
+    email:  "user@exapmle.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "aryan"
+
